@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+    height: 100vh;
+}
+
+.caixa h1{
+    color: rgb(20, 99, 255);
+}
+
+.tempos{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+
+}
+
+.tempo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    min-width: 90px;
+}
+
+.separador{
+    padding: 0 10px;
+}
+
+
+#millisegundos{
+    font-size: 30px;
+}
+
+.botao{
+    display: flex;
+    gap: 1rem;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+#iniciarBtn{
+    background-color: blue;
+    color: aliceblue;
+}
+
+#pausarBtn,#continuarBtn{
+    display: none;
+}

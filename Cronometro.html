@@ -4,12 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cronometro</title>
-    <script src="Cronometro.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Cronometro.css">
+    <script src="Cronometro.js" defer></script>
+    
 </head>
 <body>
-    <h1>Cronometro AGM</h1>
+    <div class="caixa">
+        <h1>Cronômetro AGM</h1>
+        <div class="tempos">
+          <div class="tempo" id="horas">00</div>
+          <div class="separador">:</div>  
+          <div class="tempo" id="minutos">00</div>
+          <div class="separador">:</div>
+          <div class="tempo" id="segundos">00</div>
+          <div class="separador">:</div>
+          <div class="tempo" id="millisegundos">000</div>
+        </div>
+
+        <div class="botao">
+            <button class="btn" id="iniciarBtn">Iniciar</button>
+            <button class="btn" id="pausarBtn">pausar</button>
+            <button class="btn" id="continuarBtn">continuar</button>
+            <button class="btn" id="resetarBtn">resetar</button>
+            
+
+        </div>
+        
+    </div>
+     
 </body>
 </html>
